@@ -223,7 +223,7 @@ img {
 .box-icon {
   display: flex;
   align-items: center;
-  
+  justify-content: center;
 }
 
 .advantages-list-title {
@@ -295,6 +295,27 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.social-list {
+  display: contents;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  width: 232px;
+}
+
+.team-list-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: white;
+}
+
+.team-list-social-link:hover,
+.team-list-social-link:focus {
+  stroke: #404bbf;
 }
 
 /* Our Team styles end */
